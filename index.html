@@ -5,14 +5,14 @@
 <link href="estilos.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<div class="container">
+<div class="container" id="container">
 <header>
 <hgroup>
-<h1><a href="index.html"><img style="width: 100" src="images/logo.png"/></a></h1>
-<h2>Telescopios para aficionados y profesionales</h2>
+<!-- <h2>Telescopios para aficionados y profesionales</h2> -->
 </hgroup>
 </header>
 <nav>
+<a href="index.html"><img src="images/logo.svg" height="50px" width="50px"/></a>
 <ul>
 <li><a href="index.html">Inicio</a></li>
 <li><a href="quienes-somos.html">Quiénes Somos</a></li>
@@ -21,17 +21,22 @@
 </ul>
 </nav>
 <aside>
-<article>
-<h1>Síguenos en Facebook</h1>
+<article class="facebook_link">
+<p>Síguenos en Facebook</p>
+<a href="https://www.facebook.com/">
+<svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+  <path fill-rule="evenodd" d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z" clip-rule="evenodd"/>
+</svg>
+</a>
 <!--aquí tengo que poner el código de Facebook-->
 </article>
-<article>
-<h1>Oferta del mes</h1>
-<img src="images/oferta.png" alt="Oferta del mes: Telescopios a partir de 49€"/>
+<article class="oferta_mes">
+<p>Oferta del mes</p>
+<img src="images/oferta.png" alt="Oferta del mes: Telescopios a partir de 49€" height="100px" width="80px"/>
 </article>
 </aside>
 <section>
-<article>
+<article class="main">
 <h1>Inicio</h1>
 <p>En <strong>Telescopios La Estrella del Norte</strong> queremos darte el mejor servicio. Sabemos que hay muchos advenedizos que te dirán que mires el cielo con ellos. Pero solo en <strong>La Estrella del Norte</strong> encontrarás las mejores lentes al mejor precio. No lo dudes, <strong>Telescopios La Estrella del Norte</strong> es la mejor elección.</p>
 </article>
